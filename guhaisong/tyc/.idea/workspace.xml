@@ -1,0 +1,1714 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="04232f39-45ea-4c5b-8dce-904363dd5675" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/static/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/.idea/BusinessInfoCrawler_v5.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/BusinessInfoServer.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/CodeDetailSpider.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/CodeListSpider.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/FontCrack.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/Fonts.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/font_all.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/001646f7.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/001a5afc.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/002d6227.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/004ca936.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/006512fd.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/00910054.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/011ec0f9.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/015d449c.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/0187260c.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/0187260c_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/018792c2.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/01c2831c.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/02559dc7.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/0260c951.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/0260c951_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/0282ce58.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/02c7720d.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/02d497bb.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/02d497bb_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/02e892c6.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/032fbfae.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/03771e23.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/03b51a6f.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/03b51a6f_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/04c97184.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/05181bd9.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/053c3c0b.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/05501c5c.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/05501c5c_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/0590b898.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/059c3687.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/05a4998f.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/063c55ba.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/069253ba.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/06d0774b.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/075e450a.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/075e450a_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/07901211.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/07901211_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/07b65392.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/07b65392_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/07ca664d.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/07ca664d_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/07dd1a0c.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/07e11433.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/07e1f39d.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/080119d5.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/0812d5e3.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/08a40a27.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/091ab9fb.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/091ab9fb_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/0964b061.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/0a41e02c.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/0aab9d2c.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/0ae9e2d9.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/0be89e73.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/0c123d6d.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/0c453b7a.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/0c5993cf.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/0c62369d.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/0c62369d_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/0cb49062.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/0cb6313d.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/0ccb5e3b.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/0d467465.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/0de97462.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/0e01cea8.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/0e04a9ea.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/0e07a9c6.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/0e2c56a9.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/0e6069b6.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/0e6ec996.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/0e7cca80.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/0e8b30e6.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/0e8b30e6_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/0eab9b2d.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/0eb91914.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/0ebf31f2.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/0f15f810.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/0f22b82b.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/0f287d2c.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/0f66162b.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/0f66162b_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/0fac8c8b.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/0fe8e1cb.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/0ffb7cc4.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/10345127.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/10425620.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/10425620_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/104e53ac.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/104e53ac_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/10622865.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/10622865_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/10809252.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/10809252_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/10a999b4.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/10ec1a1c.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/110663de.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/11298347.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/11b2b3a4.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/11f8b13e.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/12368929.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/12368929_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/12431825.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/12954371.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/12bb2d91.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/12c6c399.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/13004430.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/13004430_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/13202167.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/134fbbb2.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/13546126.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/13546126_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/13551512.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/13637029.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/13637029_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/13987702.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/13a1dedc.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/13b7e82d.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/14020434.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/140df76f.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/14322205.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/14dfa282.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/15018937.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/152443dc.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/152dbbb7.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/152dbbb7_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/154b1582.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/159a7148.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/159a7148_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/160af3cc.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/16374bf4.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/165076c8.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/166e833a.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/16933998.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/16c9df9f.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/1711ffda.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/174df34e.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/17632193.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/1783aa0d.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/17880691.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/1790ee30.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/1791fa90.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/17975662.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/179cc7d7.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/17e8e02d.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/1805fccd.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/1822d817.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/18338695.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/1834c27e.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/184632b7.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/18993101.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/18b21472.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/18c15399.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/18e37c70.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/19697521.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/1a36b7ab.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/1a470d7b.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/1a668301.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/1a71b2cb.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/1b3439ee.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/1b35b199.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/1b3b31cc.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/1ba33b11.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/1bbe7c34.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/1c7387e1.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/1d549f37.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/1d64b722.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/1d8d39bd.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/1d961cd2.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/1defacde.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/1dff24bb.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/1e1c54b9.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/1e2228b5.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/1e7c8b1f.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/1ea0e057.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/1eefdb1d.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/1f26319e.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/1f333c97.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/1f4c2f2f.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/1f87e86e.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/1f87e86e_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/201200b3.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/203ee510.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/203ee510_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/20544437.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/20544437_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/20719903.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/20cd3daa.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/20cd3daa_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/21937898.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/22389507.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/22389507_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/22391180.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/2244c30c.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/225656db.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/23368301.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/23595428.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/2375443c.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/2375443c_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/237e046c.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/2383e072.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/23971051.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/23971051_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/23bc4399.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/23ee394d.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/23ee394d_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/24070627.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/24807409.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/24870b32.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/24c9ee7f.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/24ccd8ac.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/25097575.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/253e9d9c.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/25417319.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/254b6f2f.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/254b6f2f_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/25cd9a24.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/26097cbb.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/26338437.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/26705934.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/268ce6fc.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/268ce6fc_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/26d3bed9.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/270fc6ea.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/27454fbb.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/27847907.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/28017999.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/28189800.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/28283203.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/28441896.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/28592057.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/28592057_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/286ea8a2.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/28741396.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/28ee715b.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/29632998.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/29758773.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/29898674.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/29eb0a55.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/2a2616e0.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/2aa46b59.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/2aa46b59_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/2abd22fc.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/2b210c5d.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/2c067d6d.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/2c77dcea.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/2c9b55ca.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/2cbc084f.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/2cd963d2.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/2d2e3f9a.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/2d8eb13c.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/2db32cc0.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/2e65365a.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/2ec1ddc2.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/2f5f36db.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/2f5f36db_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/2f6b67e2.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/2ff21c8e.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/302351e7.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/30452bb5.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/3055d3eb.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/3055d3eb_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/30805711.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/30f0d2e0.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/30f73f5d.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/31119911.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/311fd077.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/31438540.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/31844901.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/319119c6.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/32255243.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/327a910e.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/32827212.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/328be0bb.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/328be0bb_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/32ab0e11.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/332a5fb7.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/332a5fb7_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/34194608.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/343170e2.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/343177a3.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/345b8a48.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/346fc79f.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/35990956.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/3608c734.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/36119763.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/3673c873.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/36781184.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/36d67119.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/37858844.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/38000496.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/385cd88c.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/3890e1b1.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/3890e1b1_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/38d2ea02.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/38d6881d.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/38d914cc.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/38d914cc_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/39022494.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/39100975.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/39297587.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/39297587_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/3967a1a0.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/3972a1ba.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/39782470.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/3a33ba1f.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/3a7fe66c.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/3ab045e2.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/3b214b0e.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/3b3f0de3.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/3b541a87.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/3b5bc886.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/3b73fdfd.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/3bba6bb7.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/3bd6749a.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/3bd6749a_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/3c14870b.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/3d0891e1.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/3d0b98b1.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/3d237618.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/3ddb4a34.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/3decf903.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/3decf903_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/3e275f04.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/3e275f04_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/3e6d2394.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/3f627278.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/3ff2df13.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/4043b794.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/4090ab8c.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/40a062a2.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/40a062a2_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/40bb0a7f.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/40c55d85.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/41125684.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/4112d036.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/41197291.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/41bf24c3.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/41d7734a.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/41e76ce5.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/42631023.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/42ce9040.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/42d66ab7.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/42e8027a.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/43271747.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/43271747_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/43366064.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/43366064_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/43755157.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/438982af.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/44516503.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/44682fbb.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/44695984.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/44d7aaf1.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/45015546.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/45063111.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/45445151.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/45782c96.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/45800d08.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/45986440.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/46385061.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/46385061_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/46594121.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/465c9660.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/471381f7.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/472066de.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/48221870.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/48221870_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/48308e20.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/48355356.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/48377709.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/48562494.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/4893b426.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/49335965.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/4948c141.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/49631975.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/49732350.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/49824157.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/49d4debf.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/4a00d636.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/4a8259c4.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/4b8d64c9.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/4c190d96.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/4c190d96_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/4c86bc8d.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/4cbc37e3.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/4cca97fb.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/4cd39946.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/4ceb40c3.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/4d8ebf40.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/4ddbd96c.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/4e075cb7.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/4fa10a21.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/50215db2.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/502ad2f4.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/503dd711.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/50549144.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/50684368.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/50777997.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/50c31640.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/50cff76e.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/50ecf1ce.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/5188f36b.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/5188f36b_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/51978f70.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/51d08eed.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/52078e68.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/52133631.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/521d68db.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/52282bca.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/52307841.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/523b55e5.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/52595588.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/528463bd.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/528463bd_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/52b3e362.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/52d1aaa2.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/52d1aaa2_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/5323a77e.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/5323a77e_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/5339147f.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/533a8c54.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/53525716.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/53560282.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/53745528.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/54299425.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/54756295.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/54789096.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/54c1a3dd.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/5534d7da.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/56078710.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/56120878.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/56464efa.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/56e0fbbd.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/56e0fbbd_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/56e9dde7.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/57084271.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/57827181.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/57980dcd.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/583101b0.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/583101b0_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/58331560.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/58538248.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/58699289.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/586f71c2.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/58726757.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/58b3a2ba.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/59156366.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/5922a7d4.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/59327783.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/59327783_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/594a4ac1.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/59877829.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/5a6b7e77.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/5bdcf02e.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/5be3fa4c.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/5c61524f.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/5c61d305.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/5cbd92c0.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/5d09f527.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/5d50bdfd.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/5d94889a.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/5da5dc50.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/5da5dc50_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/5e041255.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/5e3a9eb9.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/5ebf2d55.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/5f6a9fb5.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/5fc4c75e.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/60459405.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/60459405_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/60a4ea77.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/60a4ea77_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/61802d2b.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/61b9eff2.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/62012462.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/62272913.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/622f606f.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/62893107.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/62fef9cf.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/63464770.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/63cca7cc.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/64042481.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/64248217.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/64420298.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/64420298_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/64993665.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/65f520bc.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/66022555.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/66541369.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/667d58d1.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/6681ebb9.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/66947345.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/66fe34b9.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/67032772.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/6708840b.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/67440463.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/67628342.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/679492f6.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/67d3b4fb.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/67f39656.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/67f39656_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/68070000.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/680b1658.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/681c2045.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/682d399d.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/684fdb15.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/68577442.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/69d41607.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/6a72fba3.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/6ad16ebf.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/6b038759.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/6b038759_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/6b4dfcff.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/6b4dfcff_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/6b538c7f.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/6bc550f4.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/6bc6c564.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/6c37f06c.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/6cd4b04e.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/6dacf7ce.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/6db3f594.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/6de1b250.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/6e048dfd.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/6eda955e.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/6fa2cf76.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/70161477.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/70654735.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/70a32935.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/70cf08a2.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/70e9e31c.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/70fb1127.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/70fb1127_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/7161f47a.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/7162dc69.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/71641003.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/7165b576.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/71961879.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/71961879_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/72020062.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/72148577.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/7231ded9.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/72367615.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/724f269e.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/72554009.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/72790282.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/73236817.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/7397b06e.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/73d2928d.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/73d2928d_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/73d9d1a6.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/74029047.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/74029047_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/74270316.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/74468ce9.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/74529229.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/74a9d223.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/74fdd7f4.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/755d6eda.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/76004802.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/76133963.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/76153e8d.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/76205559.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/76205559_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/76363219.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/76482319.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/764fbd7b.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/76569385.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/76da1225.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/76e9bc4d.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/77130617.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/77158068.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/77168551.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/771d1c2d.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/77446869.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/77f3b8ff.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/78115763.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/78115763_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/78164105.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/78328415.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/78348100.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/785ab5a4.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/785ab5a4_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/787f8852.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/78a3f430.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/78baf4bf.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/7990c9da.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/79c9931e.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/79de07cd.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/7a1c9b02.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/7b447cf4.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/7ba87fe8.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/7c24d086.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/7c63d399.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/7c82c125.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/7c8e7347.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/7d0bbdb6.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/7d28bc0b.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/7dbd3821.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/7dd9412e.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/7dd9412e_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/7de6dd93.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/7dfb52fc.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/7dfb52fc_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/7e185bfc.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/7e9aaa63.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/7f6947e3.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/7f9ff3a0.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/7fd89a13.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/80028434.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/801729b6.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/801729b6_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/80319101.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/80964371.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/8111a2ff.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/81414524.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/8158fc5c.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/818c93f6.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/818da7af.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/81961304.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/81961304_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/81a3a79d.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/82692074.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/8273ebcb.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/827fa59a.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/82823548.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/82823548_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/82c26e47.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/82d82273.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/82e50cf9.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/834f87c7.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/83582185.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/83603132.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/83623978.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/838677c6.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/84151746.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/843d008a.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/843d008a_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/84674303.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/8473f09a.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/847466bd.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/84e41bb5.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/85277895.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/85429692.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/85576426.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/85715faa.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/85749871.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/85749871_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/857f7618.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/858b8d4d.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/85927607.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/85cb7f2f.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/86163915.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/86415513.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/86595c51.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/86727121.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/86727121_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/86904121.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/86904121_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/86b8c2bd.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/87148770.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/872ebe59.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/872ebe59_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/87366912.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/87607292.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/87618953.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/8794f1e9.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/87f81b2f.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/88271984.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/88540536.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/8885d6af.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/8895eafc.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/88b54b20.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/89117643.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/89117643_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/89222166.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/8932355e.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/8932355e_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/8980ff8d.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/898d49cd.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/89a1461f.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/89bdcf28.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/8a7e2df0.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/8a7e2df0_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/8a8d0950.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/8b21e03b.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/8bd351cf.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/8ce4198b.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/8d0c978f.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/8d0c978f_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/8d29108b.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/8d2ef017.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/8d3728cf.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/8d9af464.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/8dbe212a.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/8ddab837.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/8e014b5f.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/8e26c076.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/8ea0e4e2.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/8f381833.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/8f50a8d2.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/8f93d55a.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/8fa0ed39.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/8fa0ed39_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/8fb28587.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/8fc06893.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/8fd05ee5.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/90178240.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/90194979.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/90215029.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/90364f3b.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/9076ea39.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/90a0db15.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/90a3beb7.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/91280316.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/91369116.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/91369116_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/91808186.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/92130513.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/923d811a.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/924d045f.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/926127d4.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/92809505.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/93558050.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/9494a6ae.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/94b2552a.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/94d0a8c4.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/94d5e8fe.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/95049912.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/95049912_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/95564734.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/9557a2f4.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/9557a2f4_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/95587006.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/959cad5c.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/95f3fb72.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/95f3fb72_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/96209411.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/96232c71.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/96304391.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/96425793.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/964ae05c.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/967526e3.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/96845559.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/969a145a.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/96b24c90.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/96fc2c17.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/97816566.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/97967771.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/97da1c12.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/98086ac5.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/98246361.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/98301d5d.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/9830581e.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/98350933.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/9843dce3.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/985abcd7.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/98967240.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/98a63f62.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/98d9dc44.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/991e6ebf.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/9920d4f3.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/99762744.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/99780984.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/99c40939.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/99dbabff.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/99ea0586.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/9a8ba3e2.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/9af461a3.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/9af461a3_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/9bb55816.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/9c2ecf65.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/9c4b7050.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/9cc2118b.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/9ce6e7db.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/9d099905.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/9d3d7cca.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/9e05ef1d.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/9ecdaa77.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/9ef47877.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/9f3f9ce1.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/9f8ed4a7.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/9f955734.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/9f97e33c.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/9fdba9f8.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/a0703879.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/a14bbb0c.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/a28ce6e9.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/a2c3f3d6.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/a2c3f3d6_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/a2d2b951.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/a32f6621.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/a3402f33.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/a3402f33_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/a35f28f7.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/a499ffe8.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/a6074c42.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/a6577379.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/a6a799f5.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/a6f9d804.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/a713893c.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/a72dfbad.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/a7459911.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/a7459911_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/a8b8c407.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/a8c969c2.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/a9abddb0.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/a9f0b389.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/aa08c8e6.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/aa08c8e6_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/aa2c104f.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/aa87380d.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/aa8a9c7a.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/aa8a9c7a_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/ab169f13.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/ab3de110.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/ab564426.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/ab86c217.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/abd90084.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/ac14909d.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/ac51fdfa.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/aca77978.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/acb0c824.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/acca9f91.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/ad53fe7e.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/ad9d11bd.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/ad9d11bd_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/ae78e855.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/aef195c8.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/aef195c8_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/af55579f.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/b01e2412.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/b0454c68.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/b148e024.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/b15f4d80.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/b17d9d87.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/b199e0c2.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/b1c0fb33.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/b25c0ff5.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/b26a411a.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/b2c29e72.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/b2ce9489.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/b312bb85.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/b312bb85_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/b47c3bf8.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/b550b925.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/b5bab090.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/b5d3aa89.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/b650426b.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/b650426b_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/b6938de3.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/b74d8033.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/b797f5ea.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/b7af7cb9.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/b845e6cb.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/b8792253.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/b886d496.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/b8c28d03.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/b8e099f8.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/b92accae.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/b960ed3a.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/bae3b976.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/bb49248c.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/bbd2989b.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/bbd98de8.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/bbdcea9c.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/bbf2e555.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/bbf9d123.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/bc3114aa.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/bcc2a666.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/bcd1e23b.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/bcd1e23b_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/bce0996b.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/bd0154c2.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/bd8a8a16.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/bdbb5150.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/bdf4ed8d.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/be241b92.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/be53deb9.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/be62ec87.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/bec846b1.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/bec846b1_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/bece3b24.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/beda24e5.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/bf82c07c.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/bf976f68.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/bfb2b3fa.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/c08c7c97.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/c08c7c97_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/c0a31422.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/c0a77acb.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/c0d50e4d.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/c0df3143.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/c14535d3.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/c1514e27.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/c1689ad0.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/c1a28871.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/c1f4394d.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/c23c3bf6.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/c23dcacf.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/c2406386.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/c2406386_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/c24e510b.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/c268d7f8.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/c2712d6f.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/c272cc7f.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/c2b7c666.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/c305691f.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/c3248609.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/c3248609_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/c33f1f6e.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/c352c73e.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/c3e52227.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/c3f1b959.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/c4138a38.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/c4138a38_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/c448e084.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/c4605357.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/c4df1f46.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/c4f8704d.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/c5304b31.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/c59b3ad5.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/c59b3ad5_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/c5f44ced.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/c6b37072.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/c70aef9b.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/c75ad1f1.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/c75f05e8.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/c8095536.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/c833f51d.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/c833f51d_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/c89f66c2.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/c8f4c147.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/c99f7ff3.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/ca65ca33.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/cb45762a.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/cb91245c.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/cb97d25f.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/cbf3d3f3.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/cbfcff28.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/cc31f18e.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/cc6b4316.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/cca3f825.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/cd22e0fd.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/cda771e9.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/cda771e9_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/cdc54b0f.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/cddeb5b1.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/ce390169.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/ce5d6ef6.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/ce5d6ef6_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/ce7bca2f.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/ce8770b4.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/ce8770b4_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/cef7e9e8.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/cefd6177.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/d0459aa2.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/d08659e4.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/d1320162.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/d163f5b9.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/d18bcf96.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/d265411e.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/d28ac46a.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/d2fa5fe4.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/d3b4031b.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/d3b4031b_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/d3d79be0.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/d418b842.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/d4a383ac.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/d4a383ac_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/d4c179bf.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/d55f190b.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/d56a87cc.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/d60e830a.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/d64cbf96.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/d70a3edb.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/d7154120.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/d7514035.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/d7619dc9.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/d769b142.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/d798c395.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/d7c58d0f.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/d7c58d0f_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/d7cfe19b.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/d89ecc4e.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/d8ec5a3e.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/d8fbc7b4.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/d9efa8bf.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/da7803c4.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/dae9b1bc.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/db429c37.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/db6924c0.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/db71ef5f.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/db9ade3d.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/db9ade3d_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/dbcf1cfd.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/dc1cd6b9.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/dc1cd6b9_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/dca76024.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/dcaf0883.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/dd221c39.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/dd3866bf.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/dd847e5e.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/ddd9fe04.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/de70393f.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/dee179cb.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/df54b9ab.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/df6b3451.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/df6edc3d.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/dfbf72a1.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/dfdf0c2a.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/e037f85c.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/e07748c6.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/e07748c6_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/e07a4c66.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/e0dfc86b.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/e10ee038.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/e15a4b30.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/e17bb6b8.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/e25731fc.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/e25731fc_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/e2966955.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/e2abbfa9.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/e2bf8825.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/e32e97b9.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/e3a23712.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/e3fe43ba.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/e3fe43ba_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/e4d5343a.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/e4d5343a_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/e4e25914.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/e50a7c81.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/e52ea467.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/e530ca91.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/e597ff9e.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/e597ff9e_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/e5d65109.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/e5fe687d.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/e653dfa3.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/e653f852.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/e65598ce.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/e676347d.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/e6a1d1bb.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/e6a1d1bb_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/e897fb96.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/e897fb96_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/e936a663.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/e97a3257.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/e9d33f4f.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/e9e3b8a1.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/e9eeefaa.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/ea420051.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/ea93feae.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/ea96e30c.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/ead0d059.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/eb0c47dd.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/eb84088a.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/eb94a8e7.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/eba8f421.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/ebe44ffd.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/ed4b5376.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/ed98c603.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/ed98c603_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/edbb54f3.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/ee0209f7.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/ee2f0e08.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/ee3a175c.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/ee3a175c_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/eeaed4e4.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/eeaed4e4_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/eec85aea.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/eec8ae88.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/eeeb57a6.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/ef605da9.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/f017d405.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/f1328e09.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/f1776a2f.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/f1827281.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/f18f40a9.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/f1e6bd3b.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/f2020896.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/f2d6e539.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/f30b72bb.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/f31ffb21.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/f32ae5e8.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/f35e8355.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/f47147ec.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/f51964fd.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/f5b2e3ba.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/f61980fc.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/f65ada1f.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/f699e374.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/f736c2d4.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/f7be9730.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/f7cde4d0.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/f84e84b2.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/f871f440.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/f88670e3.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/f8a148a2.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/f8b2932c.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/f8b2932c_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/f9262992.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/f9262992_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/f940a470.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/f9563b31.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/f9656db9.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/f972265d.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/f972265d_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/f9d1e8af.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/f9d1e8af_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/fa133e84.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/fa2beca9.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/fa3b5383.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/fa9ca95b.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/fab34457.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/fafc8d52.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/fb4e46c0.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/fbaf0ddf.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/fbcc8743.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/fbcc8743_num.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/fc1b0a2c.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/fd52a910.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/fd5e3722.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/fde445ec.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/fe02a7b7.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/fe1185c7.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/fe16b1fa.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/fee5d79a.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/fef0ddf5.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts/fefbf01e.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/FontCracks/fonts_all.dict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/PublicTools/MongoHelper.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/PublicTools/ParseTools.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/PublicTools/PrivateHead.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/PublicTools/RequestTools.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/PublicTools/TokenPool.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/PublicTools/UserAgentTools/UaSources.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/PublicTools/UserAgentTools/UserAgentHelper.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/PublicTools/UserAgentTools/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/PublicTools/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/RegisteTianYanCha_simple.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/TycSpider.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/UserPool/UserHlper.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/UserPool/UserPool.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/UserPool/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/baiduSpider.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/config.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/registe.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/static/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/templates/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/templates/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/test.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/tyc_branch_update.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/tyc_m_list.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/tyc_update_parse.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/vip_tyc_page.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/xxx.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BusinessInfoCrawler_v7/中英文字段对照.txt" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+      <file leaf-file-name="TycSpider.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BusinessInfoCrawler_v7/TycSpider.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="108" column="78" lean-forward="false" selection-start-line="108" selection-start-column="78" selection-end-line="108" selection-end-column="78" />
+              <folding>
+                <element signature="e#15#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/BusinessInfoCrawler_v7/config.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-184">
+              <caret line="27" column="8" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CodeDetailSpider.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BusinessInfoCrawler_v7/CodeDetailSpider.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3456">
+              <caret line="134" column="26" lean-forward="false" selection-start-line="134" selection-start-column="26" selection-end-line="134" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BusinessInfoServer.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BusinessInfoCrawler_v7/BusinessInfoServer.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="783">
+              <caret line="46" column="23" lean-forward="true" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="baiduSpider.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BusinessInfoCrawler_v7/baiduSpider.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="513">
+              <caret line="21" column="27" lean-forward="false" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tyc_m_list.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BusinessInfoCrawler_v7/tyc_m_list.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="13" column="34" lean-forward="false" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="registe.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BusinessInfoCrawler_v7/registe.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1755">
+              <caret line="72" column="25" lean-forward="false" selection-start-line="72" selection-start-column="25" selection-end-line="72" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tyc_branch_update.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BusinessInfoCrawler_v7/tyc_branch_update.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1188">
+              <caret line="57" column="53" lean-forward="false" selection-start-line="57" selection-start-column="53" selection-end-line="57" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RegisteTianYanCha_simple.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BusinessInfoCrawler_v7/RegisteTianYanCha_simple.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4104">
+              <caret line="157" column="57" lean-forward="false" selection-start-line="157" selection-start-column="57" selection-end-line="157" selection-end-column="57" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CodeListSpider.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BusinessInfoCrawler_v7/CodeListSpider.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="19" column="37" lean-forward="false" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/BusinessInfoCrawler_v7/TycSpider.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tyc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tyc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BusinessInfoCrawler_v7" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="nodejs_interpreter_path" value="E:/Node.js/node" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunManager" selected="Python.tyc">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="tyc" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="tyc" type="PythonConfigurationType" factoryName="Python" singleton="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="tyc" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BusinessInfoCrawler_v7/BusinessInfoServer.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Python.tyc" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="04232f39-45ea-4c5b-8dce-904363dd5675" name="Default" comment="" />
+      <created>1552467917827</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1552467917827</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="1" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25565124" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/BusinessInfoCrawler_v7/TycSpider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#15#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BusinessInfoCrawler_v7/CodeDetailSpider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3456">
+          <caret line="134" column="26" lean-forward="true" selection-start-line="134" selection-start-column="26" selection-end-line="134" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BusinessInfoCrawler_v7/BusinessInfoServer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="783">
+          <caret line="46" column="23" lean-forward="true" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BusinessInfoCrawler_v7/baiduSpider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="21" column="27" lean-forward="false" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BusinessInfoCrawler_v7/tyc_m_list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="13" column="34" lean-forward="false" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BusinessInfoCrawler_v7/registe.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1755">
+          <caret line="72" column="25" lean-forward="false" selection-start-line="72" selection-start-column="25" selection-end-line="72" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BusinessInfoCrawler_v7/tyc_branch_update.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1188">
+          <caret line="57" column="53" lean-forward="false" selection-start-line="57" selection-start-column="53" selection-end-line="57" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BusinessInfoCrawler_v7/RegisteTianYanCha_simple.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4104">
+          <caret line="157" column="57" lean-forward="false" selection-start-line="157" selection-start-column="57" selection-end-line="157" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BusinessInfoCrawler_v7/CodeListSpider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="19" column="37" lean-forward="false" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BusinessInfoCrawler_v7/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4185">
+          <caret line="155" column="39" lean-forward="false" selection-start-line="155" selection-start-column="39" selection-end-line="155" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BusinessInfoCrawler_v7/中英文字段对照.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="16" lean-forward="false" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BusinessInfoCrawler_v7/xxx.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BusinessInfoCrawler_v7/TycSpider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#15#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BusinessInfoCrawler_v7/tyc_update_parse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" column="32" lean-forward="false" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BusinessInfoCrawler_v7/tyc_m_list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="13" column="34" lean-forward="false" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BusinessInfoCrawler_v7/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="972">
+          <caret line="36" column="15" lean-forward="false" selection-start-line="36" selection-start-column="15" selection-end-line="36" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/python35/Lib/pprint.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BusinessInfoCrawler_v7/中英文字段对照.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="16" lean-forward="false" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BusinessInfoCrawler_v7/xxx.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/python35/Lib/pprint.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BusinessInfoCrawler_v7/tyc_update_parse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" column="32" lean-forward="false" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BusinessInfoCrawler_v7/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4185">
+          <caret line="155" column="39" lean-forward="false" selection-start-line="155" selection-start-column="39" selection-end-line="155" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/virtualenvronment/spider/Lib/site-packages/aiohttp/connector.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BusinessInfoCrawler_v7/BusinessInfoServer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="783">
+          <caret line="46" column="23" lean-forward="true" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BusinessInfoCrawler_v7/CodeDetailSpider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3456">
+          <caret line="134" column="26" lean-forward="false" selection-start-line="134" selection-start-column="26" selection-end-line="134" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BusinessInfoCrawler_v7/CodeListSpider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="19" column="37" lean-forward="false" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BusinessInfoCrawler_v7/RegisteTianYanCha_simple.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4104">
+          <caret line="157" column="57" lean-forward="false" selection-start-line="157" selection-start-column="57" selection-end-line="157" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BusinessInfoCrawler_v7/registe.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1755">
+          <caret line="72" column="25" lean-forward="false" selection-start-line="72" selection-start-column="25" selection-end-line="72" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BusinessInfoCrawler_v7/tyc_branch_update.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1188">
+          <caret line="57" column="53" lean-forward="false" selection-start-line="57" selection-start-column="53" selection-end-line="57" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BusinessInfoCrawler_v7/tyc_m_list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="13" column="34" lean-forward="false" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BusinessInfoCrawler_v7/baiduSpider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="21" column="27" lean-forward="false" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BusinessInfoCrawler_v7/TycSpider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="108" column="78" lean-forward="false" selection-start-line="108" selection-start-column="78" selection-end-line="108" selection-end-column="78" />
+          <folding>
+            <element signature="e#15#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BusinessInfoCrawler_v7/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-184">
+          <caret line="27" column="8" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

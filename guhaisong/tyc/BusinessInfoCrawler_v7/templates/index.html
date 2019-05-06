@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}" type="image/x-icon">
+    <title>工商信息查询系统</title>
+    <style type="text/css">
+        body {
+            width: 700px;
+            margin: 40px auto;
+            border: 1px solid #999;
+            padding: 0 20px;
+            border-radius: 10px;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        h2 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<h2>工商信息API说明</h2>
+<ul>
+    <li>1. 全局 搜 索 模式:<a href="./business?mode=list&kw=土豆">./business?mode=list&kw=搜索关键字</a></li>
+    <li>2. 精准id 搜索模式:<a href="./business?mode=detail&kw=22822">./business?mode=detail&kw=搜索内部id</a></li>
+    <li>3. 分支机构搜索模式:<a href="./business?mode=branch&kw=22822">./business?mode=branch&kw=搜索内部id</a></li>
+    <li>4. 股东信息搜索模式:<a href="./business?mode=stockholder&kw=22822">./business?mode=stockholder&kw=搜索内部id</a></li>
+    <li>5. 对外投资搜索模式:<a href="./business?mode=investment&kw=22822">./business?mode=investment&kw=搜索内部id</a></li>
+    <li>6. 年报信息搜索模式:<a href="./business?mode=annualreport&kw=22822">./business?mode=annualreport&kw=搜索内部id</a></li>
+    <li>7. 百度百科校验模式:<a href="./baike?kw=北京联想">./baike?kw=关键字</a></li>
+    <li>7. 代码中心搜索模式:<a href="./code?kw=北京联想">./code?kw=关键字</a></li>
+    <li>8. 天眼查M端搜索模式:<a href="./m_business?kw=北京联想">./m_business?kw=关键字</a></li>
+</ul>
+<p>该api仅供爬虫爱好者学习与娱乐，如有侵权或者技术疑问,请发邮件至<strong>chinapython@yeah.net</strong>！</p>
+</body>
+</html>

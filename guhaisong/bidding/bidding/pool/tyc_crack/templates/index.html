@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>{{title}}</title>
+<style type="text/css">
+body { width: 700px; margin: 40px auto; border: 1px solid #999; padding: 0 20px;  border-radius:10px;}
+li{list-style: none;}
+h2 {text-align: center;}
+</style>
+</head>
+<body>
+<h2>天眼查混淆字体破解API说明</h2>
+<p>该api由网友Chinapython同学及网友yaxin同学共同开发。本着“开源精神”将API免费给各大同行使用与学习,为维护资源方的利益,破解方法暂不公开，以下为接口说明：</p>
+	<ul>
+		<li>一、接口地址：http://47.104.233.81:8081/</li>
+		<li>二、上传方式：POST</li>
+		<li>三、上传内容：上传key与lock两个字段</li>
+		<li>四、上传类型：json</li>
+		<li>五、字段含义：key为网页源码中<em>&lt;body class="font-3890e1b1"&gt;</em>中的<strong>3890e1b1</strong></li>
+		<li>六、字段含义：lock是需要解密的字符串,如：0044增件(解密后:3388万元)</li>
+		<li>七、返回内容：返回内容为解密后的字符，以json返回：{"value":解密后的内容}</li>
+		<li>八、注意内容：key字段中的字符在每个请求页面中内容不一样，动态变化，请勿混淆</li>
+	</ul>
+<p>该api仅供爬虫爱好者学习与娱乐，如有侵权或者技术疑问,请发邮件至<strong>chinapython@yeah.net</strong>！</p>
+</body>
+</html>

@@ -1,0 +1,120 @@
+##### ----------------------------------------列表页 接口----------------------------------------
+company_name    公司名称
+company_id  公司id
+company_state   公司状态
+legal_person    法人代表
+registered_capital  注册资本
+registered_time 注册时间
+contact_phone   联系电话
+contact_mail    联系邮箱
+short_name  公司简称
+history_name    历史名称
+credit_code 信用代码
+sign_up_code    注册号码
+org_code    机构代码
+site    所属城市
+##### ----------------------------------------详情页 接口----------------------------------------
+###### ----------基础信息----------
+company_id  天眼查id
+crawl_url   天眼查链接
+secret_key  加密秘钥
+company_name    公司名称
+update_time 更新时间
+history_name    历史名称
+company_tags    公司标签
+telphone    联系电话
+email   联系邮箱
+website 公司官网
+company_addrss  公司地址
+company_abstract    公司简介
+###### ----------工商信息----------
+legal_person    法人代表
+legal_person_id 法人链接
+registered_capital  注册资本
+registered_date 注册日期
+company_status  公司状态
+register_number 工商注册号
+organization_code   组织机构代码
+social_credit_code  统一信用代码
+company_type    公司类型
+corporation_tax 纳税人识别号
+industry    行业
+business_term   营业期限
+approval_date   核准日期
+taxpayer_aptitude   纳税资质
+employees_num   人员规模
+paid_capital    实缴资本
+registration_authority  登记机关
+insured_num 参保人数
+company_enname  英文名称
+registered_address  注册地址
+operation_scope 经营范围
+###### ----------股东信息(大股东)----------
+big_holder  大股东
+big_holder_id   大股东链接
+big_holder_investment  大股东出资
+big_holder_investment_rate  大股东出资比例
+big_holder_investment_date  大股东出资时间
+###### ----------税务评级----------
+tax_level   税务评级
+###### ----------融资历史----------
+financing_info  融资历史
+--01num 序号
+--02date 时间
+--03rounds 轮次
+--04appraisement 估值
+--05sum_of_money 金额
+--06rate 比例
+--07investor 资方
+##### ----------------------------------------分支机构 接口----------------------------------------
+branch_company_id 子公司id
+branch_company_name   子公司名称
+branch_legal_person    法人或者负责人
+branch_reg_date 注册日期
+branch_status  公司状态
+##### ----------------------------------------股东信息 接口----------------------------------------
+holder_name  股东名称
+holder_id	股东id
+investment_proportion 出资比例
+investment_amount 认缴出资
+investment_date 出资时间
+##### ----------------------------------------对外投资 接口----------------------------------------
+invested_company_name   被投资公司名称
+invested_company_id 被投资公司id
+legal_person    被投资法定代表人
+registered_capital  注册资本
+investment_proportion   投资占比
+registered_date 注册时间
+status  状态
+##### ----------------------------------------年报信息 接口----------------------------------------
+title   年报标题
+reg_code    注册号
+social_credit_code  信用代码
+company_name    企业名称
+phone   联系电话
+postalcode  邮政编码
+status  经营状态
+employee_nums   从业人数
+email   电子邮箱
+website 是否有网店或者网站
+address 公司地址
+total_assets    资产总额
+total_equity    所有者权益合计
+total_salesquity    销售总额
+total_profit    利润总额
+main_income    营业总收入中主营业务收入
+net_profit  净利润
+total_tax   纳税总额
+total_liabilities   负债总额
+endowment_insurance 城镇职工基本养老保险
+medical_insurance   职工基本医疗保险
+maternity_insurance 生育保险
+unemployed_insurance    失业保险
+injury_insurance    工伤保险
+
+
+
+
+
+
+
