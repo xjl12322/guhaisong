@@ -40,6 +40,7 @@ def insert_db(dicts):
     supervisory = {"jd.com": ["jd", "jd_title", "jd_url"], "1688.com": ["1688", "1688_title", "1688_url"],
                    "b2b.baidu.com": ["b2bbaidu", "b2bbaidu_title", "b2bbaidu_url"]}
     if dicts.get("tag") == "jd":
+        print(dicts)
         sql = "update baidu_ranking set jd=%d,jd_title='%s',jd_url='%s' where keyword='%s'" % (
         dicts["index"], dicts["title"], dicts["url"], dicts["keyword"])
         conn = test_connection()
@@ -53,6 +54,7 @@ def insert_db(dicts):
             logging.info("jd--mysql:{}".format(e))
 
     if dicts.get("tag") == "1688":
+        print(dicts)
         sql = "update baidu_ranking set `1688`=%d,1688_title='%s',1688_url='%s' where keyword='%s'" % (
         dicts["index"], dicts["title"], dicts["url"], dicts["keyword"])
         conn = test_connection()
@@ -85,7 +87,7 @@ def insert_db(dicts):
 def get_keyword(q):
     conn = inser_redis()
     num = conn.llen("keywordlist")
-    for k in range(412, num):
+    for k in range(496, num):
         print(k),
         result = conn.lindex("keywordlist", k)
         q.put(result)
@@ -98,7 +100,7 @@ def requests_keyword():
 
 def requests_baidu_keyword(q):
     while True:
-        keyword = q.get()
+        keyword = q
         flag_jd = False
         flag_1688 = False
         flag_b2bbaidu = False
@@ -145,6 +147,8 @@ def requests_baidu_keyword(q):
                                     if "..." in lingshi_title:
                                         html = getXpath(r2.text)
                                         title = html.xpath('''//head/title/text()''')
+                                        if len(title) > 0:
+                                            title = title[0]
                                     dicts["title"] = title
                                     dicts["url"] = r2.url
                                     dicts["index"] = index_id
@@ -162,6 +166,8 @@ def requests_baidu_keyword(q):
                                     if "..." in lingshi_title:
                                         html = getXpath(r2.text)
                                         title = html.xpath('''//head/title/text()''')
+                                        if len(title) > 0:
+                                            title = title[0]
                                     dicts["title"] = title
                                     dicts["url"] = r2.url
                                     dicts["index"] = index_id
@@ -191,39 +197,38 @@ def requests_baidu_keyword(q):
 if __name__ == "__main__":
     config_log()
 
-    t1 = threading.Thread(target=get_keyword, args=(q,))
-    t1.start()
-    # for x in range(1,6):
-    #     t2 = threading.Thread(target=get_keyword, args=(q,))
-    #     t2.start()
-    t2 = threading.Thread(target=requests_baidu_keyword, args=(q,))
-    t2.start()
-    t3 = threading.Thread(target=requests_baidu_keyword, args=(q,))
-    t3.start()
-    t4 = threading.Thread(target=requests_baidu_keyword, args=(q,))
-    t4.start()
-    t5 = threading.Thread(target=requests_baidu_keyword, args=(q,))
-    t5.start()
-    t6 = threading.Thread(target=requests_baidu_keyword, args=(q,))
-    t6.start()
-    t7 = threading.Thread(target=requests_baidu_keyword, args=(q,))
-    t7.start()
-    t8 = threading.Thread(target=requests_baidu_keyword, args=(q,))
-    t8.start()
-    t9 = threading.Thread(target=requests_baidu_keyword, args=(q,))
-    t9.start()
-    t10 = threading.Thread(target=requests_baidu_keyword, args=(q,))
-    t10.start()
-    t11 = threading.Thread(target=requests_baidu_keyword, args=(q,))
-    t11.start()
-    t12 = threading.Thread(target=requests_baidu_keyword, args=(q,))
-    t12.start()
-    t13 = threading.Thread(target=requests_baidu_keyword, args=(q,))
-    t13.start()
-    t14 = threading.Thread(target=requests_baidu_keyword, args=(q,))
-    t14.start()
-    t15 = threading.Thread(target=requests_baidu_keyword, args=(q,))
-    t15.start()
+    # t1 = threading.Thread(target=get_keyword, args=(q,))
+    # t1.start()
+    # t2 = threading.Thread(target=requests_baidu_keyword, args=(q,))
+    # t2.start()
+    # t3 = threading.Thread(target=requests_baidu_keyword, args=(q,))
+    # t3.start()
+    # t4 = threading.Thread(target=requests_baidu_keyword, args=(q,))
+    # t4.start()
+    # t5 = threading.Thread(target=requests_baidu_keyword, args=(q,))
+    # t5.start()
+    # t6 = threading.Thread(target=requests_baidu_keyword, args=(q,))
+    # t6.start()
+    # t7 = threading.Thread(target=requests_baidu_keyword, args=(q,))
+    # t7.start()
+    # t8 = threading.Thread(target=requests_baidu_keyword, args=(q,))
+    # t8.start()
+    # t9 = threading.Thread(target=requests_baidu_keyword, args=(q,))
+    # t9.start()
+    # t10 = threading.Thread(target=requests_baidu_keyword, args=(q,))
+    # t10.start()
+    # t11 = threading.Thread(target=requests_baidu_keyword, args=(q,))
+    # t11.start()
+    # t12 = threading.Thread(target=requests_baidu_keyword, args=(q,))
+    # t12.start()
+    # t13 = threading.Thread(target=requests_baidu_keyword, args=(q,))
+    # t13.start()
+    # t14 = threading.Thread(target=requests_baidu_keyword, args=(q,))
+    # t14.start()
+    # t15 = threading.Thread(target=requests_baidu_keyword, args=(q,))
+    # t15.start()
+
+
     # pool = Pool()
     # for k in range(1, 5):
     #     result = pool.apply_async(requests_baidu_keyword,(q,))
@@ -237,4 +242,4 @@ if __name__ == "__main__":
 
 
     # get_keyword()
-    # requests_baidu_keyword("压缩空气减压阀")
+    requests_baidu_keyword("儿童高跟鞋")
