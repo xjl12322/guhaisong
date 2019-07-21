@@ -17,7 +17,7 @@ def getRequests(url, myHeader=myHeaderSelf):
                 response = session.get(url, headers=myHeader, verify=False, timeout=8)
             else:
                 response = session.get(url, headers=myHeaderSelf, verify=False, timeout=8)
-            if response and response.status_code <=303:
+            if response and response.status_code <=400:
                 response.encoding = response.apparent_encoding
                 return response
             else:

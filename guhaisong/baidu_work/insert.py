@@ -4,9 +4,12 @@ import pymysql
 import xlrd
 
 
+
+
+
 def getDatabase():
     return pymysql.connect(host="47.97.18.252", port=3306, user="ecms",
-                           passwd="ecms2mA5ycQmau8KiAXf0yhxjl", db="test", use_unicode=True, charset="utf8")
+                           passwd="ecms2mA5ycQmau8KiAXf0yh", db="test", use_unicode=True, charset="utf8")
     # connect = pymysql.Connect(
     #             host='rm-bp108682nces7278eqo.mysql.rds.aliyuncs.com',
     #             port=3306,
@@ -17,7 +20,7 @@ def getDatabase():
     #         )
     # return connect
 
-conn = getDatabase()
+
 def getUrls(content):
     keyword = content.get("keyword") if content.get("keyword") else ""
     # url = content.get("url") if content.get("url") else ""
@@ -69,4 +72,5 @@ def read():
             # print(dicts)
             getUrls(dicts)
 if __name__ == "__main__":
+    conn = getDatabase()
     read()

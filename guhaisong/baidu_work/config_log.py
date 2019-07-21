@@ -12,11 +12,11 @@ __author__ = 'yushanshan'
 
 def config_log():
     if platform.system() == 'Windows' or platform.system() == 'Darwin':
-        log_path = ''
+        log_path = './log/'
     else:
         log_path = '/var/log/zanhao/'
     level = logging.INFO
-    fmt = '%(asctime)s - %(threadName)s - %(levelname)s - %(message)s'
+    fmt = '%(asctime)s - %(threadName)s - %(levelname)s %(filename)s[:%(lineno)d] - %(message)s'
     log = logging.getLogger('')
     fileTimeHandler = TimedRotatingFileHandler(log_path + 'DSWebEngine.log', "D", 1, 30)
     fileTimeHandler.suffix = "%Y%m%d.log"
