@@ -28,6 +28,10 @@ def getUrls(content):
     # city = content.get("city") if content.get("city") else ""
     # area = content.get("area") if content.get("area") else ""
 
+
+
+
+
     sql = "INSERT INTO baidu_ranking(keyword) VALUES (%s)"
     sql1 =  "select keyword from baidu_ranking where keyword=%s"
     param = (keyword)

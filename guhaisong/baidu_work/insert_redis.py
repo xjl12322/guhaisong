@@ -12,6 +12,8 @@ def inser_redis():
 
 
 
+
+
 def get_keyword():
     sql = "select keyword from baidu_ranking"
     cursor = pymysql.cursors.SSCursor(conn)
@@ -34,3 +36,6 @@ if __name__ == "__main__":
     conn = getDatabase()
     conn_redis = inser_redis()
     get_keyword()
+
+
+

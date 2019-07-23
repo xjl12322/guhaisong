@@ -18,6 +18,7 @@ def config_log():
     level = logging.INFO
     fmt = '%(asctime)s - %(threadName)s - %(levelname)s %(filename)s[:%(lineno)d] - %(message)s'
     log = logging.getLogger('')
+
     fileTimeHandler = TimedRotatingFileHandler(log_path + 'DSWebEngine.log', "D", 1, 30)
     fileTimeHandler.suffix = "%Y%m%d.log"
     fileTimeHandler.setFormatter(logging.Formatter(fmt))
