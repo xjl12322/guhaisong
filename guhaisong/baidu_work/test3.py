@@ -46,7 +46,10 @@ flag_b2bbaidu = {}
 
 pool_task = gevent.pool.Pool(10)
 executor_thread = ThreadPoolExecutor(max_workers=12)
-
+list_jd = []
+list_1688 = []
+list_b2bbaidu = []
+tasks_list_result = []
 
 def test_connection():
     try:
@@ -138,11 +141,11 @@ def requests_baidu_keyword(keyword="尼龙布"):
 
 
 def request_detail(keyword):
-
-
-    jd = True
-    s_1688 = True
-    b2bbaidu = True
+    global  list_jd,list_1688,list_b2bbaidu,tasks_list_result
+    list_jd = []
+    list_1688 = []
+    list_b2bbaidu = []
+    tasks_list_result = []
     url = "http://www.baidu.com/s?wd=" + keyword
     try:
         r = requests.get(url, headers=Header, timeout=6)
@@ -182,12 +185,11 @@ def request_detail(keyword):
             values = val.result()
             if values != "1":
                 values_list.append(asyncio.ensure_future(handler(values)))
-        zloop.run_until_complete(asyncio.wait(tasks))
+            else:
+                logging.info("error2 stop ",values[1])
+        zloop.run_until_complete(asyncio.wait(values_list))
 async def handler(values):
-    list_jd = []
-    list_1688 = []
-    list_b2bbaidu = []
-    tasks_list_result = []
+    global list_jd, list_1688, list_b2bbaidu, tasks_list_result
     title = values[2]
     if "..." in title:
         html = getXpath(values[0])
@@ -221,9 +223,9 @@ async def handler(values):
         s = sorted(list_b2bbaidu, key=lambda x: x['index'], reverse=False)
         dict_b2bbaidu = s[0]
         tasks_list_result.append(dict_b2bbaidu)
-    for d in tasks_list_result:
-        insert_db(d)
-    # print(tasks_list_result)
+    # for d in tasks_list_result:
+    #     insert_db(d)
+    print(tasks_list_result)
 
 
 
@@ -270,17 +272,17 @@ if __name__ == "__main__":
     # t.daemon = True
     # t.start()
     "2556"
-    while True:
-        result = conn_redis.lpop("keywordlist")
-        logging.info("获取关键字：{}".format(result))
-        if not result:
-            logging.info("list空")
-            break
-        request_detail(keyword = result)
+    # while True:
+    #     result = conn_redis.lpop("keywordlist")
+    #     logging.info("获取关键字：{}".format(result))
+    #     if not result:
+    #         logging.info("list空")
+    #         break
+    #     request_detail(keyword = result)
 
-    # request_detail("衬衫夹")
+    request_detail("皮套")
     # request_detail("豆角网")
-# "陈升号'拉宾'" 露兰姬娜  肥啾'
+# "陈升号'拉宾'" 露兰姬娜  肥啾  '乐呵呵''皮套
     e = time.time()
     print("xjk")
     j = e - s
