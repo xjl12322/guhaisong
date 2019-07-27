@@ -4,37 +4,38 @@
 import multiprocessing
 import threading
 from concurrent.futures import ThreadPoolExecutor, ProcessPoolExecutor
-# from multiprocessing import Process, Pool
-from multiprocessing.dummy import Pool
+
 __author__ = 'yushanshan'
 # createTime : 2019/7/18 15:07
 # desc : this is new py file, please write your desc for this file
 # ****************************************************************
+from gevent import monkey;monkey.patch_all()
 from insert import getDatabase
 from insert_redis import inser_redis
 from requests_url import getXpath
-import requests, pymysql, logging, redis
+import requests,gevent,time
 from concurrent.futures import ProcessPoolExecutor,ThreadPoolExecutor
-from urllib import parse
-import asyncio
-import gevent
-import time
+# from urllib import parse
+# import asyncio
 from queue import Queue
-from gevent import monkey, pool
-monkey.patch_all()
+import gevent.pool
+import pymysql, logging, redis
 supervisory = ["jd.com", "1688.com", "b2b.baidu.com"]
 # from config_log import config_log
+from multiprocessing import Pool
 from config_log import *
 Header = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36",
 }
 conn = getDatabase()
-# q = Queue(15)
+
 # q = multiprocessing.Queue(8)
 flag_1688 = {}
 flag_jd = {}
 flag_b2bbaidu = {}
-task_list = pool.Pool()
+
+pool_task = gevent.pool.Pool(10)
+executor_thread = ThreadPoolExecutor(max_workers=12)
 def test_connection():
     try:
         global conn
@@ -92,92 +93,104 @@ def insert_db(dicts):
             logging.info("b2b.baidu.com--mysql:{}".format(e))
 
 
-def get_keyword():
-    conn = inser_redis()
+def get_keyword(q):
+    conns = inser_redis()
     # num = conn.llen("keywordlist")
     # for k in range(1, num):
     #     print(k)
-
     while True:
-        result = conn.lpop("keywordlist")
+        result = conns.lpop("keywordlist")
         logging.info("获取关键字：{}".format(result))
         if not result:
             logging.info("list空")
             break
-        requests_baidu_keyword(result)
-
+        # requests_baidu_keyword(result)
+        logging.info("插入关键字队列：{}".format(result))
+        q.put(result)
 
 def requests_keyword():
     pass
 
-def requests_baidu_keyword(keyword):
+def requests_baidu_keyword(keyword="尼龙布"):
     # global q
     # print(111111111111111111111)
-    # flag = True
-    # while flag:
-    # keyword = q.get()
-    executor = ThreadPoolExecutor(max_workers=16)
+    flag = True
     tasks_list = []
-    list_jd = []
-    list_1688 = []
-    list_b2bbaidu = []
-    url = "http://www.baidu.com/s?wd=" + keyword
-    try:
-        r = requests.get(url, headers=Header,timeout=6)
-    except Exception as e:
-        logging.info("eeeee：{}".format(e))
-    else:
-        if r:
 
-            logging.info("请求关键字成功：{}".format(url))
-            selector = getXpath(r.text)
-            node_list = selector.xpath('''//div[contains(@class,"c-container")]''')
-            for l in node_list:
-                url_baidu_detail = l.xpath('''h3/a[1]/@href''')
-                lingshi_title = l.xpath('''string(h3/a[1])''')
-                title = str(lingshi_title)
-                if len(url_baidu_detail) > 0:
-                    url_baidu_detail = url_baidu_detail[0]
-                    if url_baidu_detail == "" or len(url_baidu_detail) < 3:
-                        continue
-                    if str(url_baidu_detail).startswith("/sf/"):
-                        continue
-                    index_id = 0
-                    index_id = l.xpath("@id")
-                    if len(index_id) > 0:
-                        index_id = int(index_id[0])
-                    # tasks_list.append(gevent.spawn(fetch, url_baidu_detail, title, keyword, index_id))
-                    # gevent.joinall(tasks_list)
-                    future = executor.submit(fetch, url_baidu_detail,title,keyword,index_id)
-                    if future.result():
-                        lingshi = future.result()
-                        if lingshi["tag"] == "jd":
-                            list_jd.append(lingshi)
-                        if lingshi["tag"] == "1688":
-                            list_1688.append(lingshi)
-                        if lingshi["tag"] == "b2b.baidu.com":
-                            list_b2bbaidu.append(lingshi)
+    # while flag:
+    #     keyword = q.get()
+    #     logging.info("获取关键字队列：{}".format(keyword))
+        # request_detail(keyword)
 
-            if len(list_jd)>0:
-                s = sorted(list_jd, key=lambda x: x['index'], reverse=False)
-                dict_jd = s[0]
-                tasks_list.append(dict_jd)
-            if len(list_1688)>0:
-                s = sorted(list_1688, key=lambda x: x['index'], reverse=False)
-                dict_1688 = s[0]
-                tasks_list.append(dict_1688)
+def request_detail(keyword):
+        list_jd = []
+        list_1688 = []
+        list_b2bbaidu = []
+        tasks_list_result = []
+        jd = True
+        s_1688 = True
+        b2bbaidu = True
+        url = "http://www.baidu.com/s?wd=" + keyword
+        try:
+            r = requests.get(url, headers=Header,timeout=6)
+        except Exception as e:
+            logging.info("eeeee：{}".format(e))
+        else:
 
-            if len(list_b2bbaidu)>0:
-                s = sorted(list_b2bbaidu, key=lambda x: x['index'], reverse=False)
-                dict_b2bbaidu = s[0]
-                tasks_list.append(dict_b2bbaidu)
-            for dict_param in tasks_list:
-                future = executor.submit(insert_db, dict_param)
+            if r:
+                tasks_list = []
+                logging.info("请求关键字成功：{}".format(url))
+                selector = getXpath(r.text)
+                node_list = selector.xpath('''//div[contains(@class,"c-container")]''')
+                for l in node_list:
+                    url_baidu_detail = l.xpath('''h3/a[1]/@href''')
+                    lingshi_title = l.xpath('''string(h3/a[1])''')
+                    title = str(lingshi_title)
+                    if len(url_baidu_detail) > 0:
+                        url_baidu_detail = url_baidu_detail[0]
+                        if url_baidu_detail == "" or len(url_baidu_detail) < 3:
+                            continue
+                        if str(url_baidu_detail).startswith("/sf/"):
+                            continue
+                        index_id = 0
+                        index_id = l.xpath("@id")
+                        if len(index_id) > 0:
+                            index_id = int(index_id[0])
+                        tasks_list.append(pool_task.spawn(fetch, url_baidu_detail, title, keyword, index_id))
+                        gevent.joinall(tasks_list)
 
+
+                for tasks_result in tasks_list:
+                    result = tasks_result.value
+                    if result:
+                        if result["tag"] == "jd":
+                            list_jd.append(result)
+                        if result["tag"] == "1688":
+                            list_1688.append(result)
+                        if result["tag"] == "b2b.baidu.com":
+                            list_b2bbaidu.append(result)
+
+                if len(list_jd)>0:
+                    s = sorted(list_jd, key=lambda x: x['index'], reverse=False)
+                    dict_jd = s[0]
+                    tasks_list_result.append(dict_jd)
+                if len(list_1688)>0:
+                    s = sorted(list_1688, key=lambda x: x['index'], reverse=False)
+                    dict_1688 = s[0]
+                    tasks_list_result.append(dict_1688)
+
+                if len(list_b2bbaidu)>0:
+                    s = sorted(list_b2bbaidu, key=lambda x: x['index'], reverse=False)
+                    dict_b2bbaidu = s[0]
+                    tasks_list_result.append(dict_b2bbaidu)
+                # for dict_param in tasks_list:
+                #     executor_thread.submit(insert_db, dict_param)
+        # print(tasks_list_result)
+            return tasks_list_result
 def fetch(url,title,keyword,index_id):
     dicts_list = []
     try:
-        r2 = requests.get(url,headers=Header,timeout=6)
+        r2 = requests.get(url,headers=Header,timeout=5)
     except Exception as e:
         logging.info("eeeee2：{}".format(e))
     else:
@@ -244,32 +257,39 @@ def fetch(url,title,keyword,index_id):
 
             # print(dicts)
 
-
-
-
+def sss(obj):
+    pass
 if __name__ == "__main__":
-    # config_log()
 
-
-
+    config_log()
     s = time.time()
-    # logging.info("启动进程")
-    # executor_process = ProcessPoolExecutor(max_workers=8)
-    # executor_process.submit(get_keyword())
-    # executor_process = ProcessPoolExecutor(max_workers=8)
+    conn_redis = inser_redis()
+    # t1 = threading.Thread(target=get_keyword, args=(q,))
+    # t1.start()
+    # t1.join()
+    "3469"
+    th =ThreadPoolExecutor(max_workers=100)
+    results = []
 
+    while True:
+        result = conn_redis.lpop("keywordlist")
+        logging.info("获取关键字：{}".format(result))
+        if not result:
+            logging.info("list空")
+            break
 
-
-
-
-
-    # get_keyword()
+        rep = th.submit(request_detail, result)
+        if rep.result():
+            for x in rep.result():
+                insert_db(x)
 
     e = time.time()
     print("xjk")
     j = e-s
     print(j)
     print("3ed")
+
+
 
 
 
