@@ -9,7 +9,7 @@ import xlrd
 
 def getDatabase():
     return pymysql.connect(host="47.97.18.252", port=3306, user="ecms",
-                           passwd="ecms2mA5ycQmau8KiAXf0yh", db="test", use_unicode=True, charset="utf8")
+                           passwd="", db="test", use_unicode=True, charset="utf8")
     # connect = pymysql.Connect(
     #             host='rm-bp108682nces7278eqo.mysql.rds.aliyuncs.com',
     #             port=3306,
