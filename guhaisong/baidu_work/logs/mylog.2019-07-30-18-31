@@ -1,0 +1,11 @@
+2019-07-30 18:31:23,220 - MainThread - INFO test3.py[:156] - 请求关键字成功：http://www.baidu.com/s?wd=皮套
+2019-07-30 18:31:29,537 - MainThread - INFO test3.py[:205] - error2 stop 
+2019-07-30 18:31:29,538 - MainThread - INFO test3.py[:205] - error2 stop 
+2019-07-30 18:31:29,538 - MainThread - INFO test3.py[:205] - error2 stop 
+2019-07-30 18:31:29,538 - MainThread - INFO test3.py[:205] - error2 stop 
+2019-07-30 18:31:29,539 - MainThread - INFO test3.py[:205] - error2 stop 
+2019-07-30 18:31:29,539 - MainThread - INFO test3.py[:205] - error2 stop 
+2019-07-30 18:31:29,539 - MainThread - INFO test3.py[:205] - error2 stop 
+2019-07-30 18:31:29,540 - MainThread - INFO test3.py[:205] - error2 stop 
+2019-07-30 18:31:29,541 - MainThread - INFO test3.py[:205] - error2 stop 
+2019-07-30 18:31:29,542 - MainThread - INFO test3.py[:205] - error2 stop 

@@ -1,0 +1,4 @@
+2019-07-30 20:05:08,356 - MainThread - INFO test3.py[:156] - ÇëÇó¹Ø¼ü×Ö³É¹¦£ºhttp://www.baidu.com/s?wd=Æ¤Ì×
+2019-07-30 20:05:09,952 - MainThread - INFO test3.py[:240] - ¹Ø¼ü×ÖÆ¤Ì×-- jd ÏêÇéÒ³url£ºhttps://www.jd.com/tupian/6705c5d04bc6ceb2bc1.html
+2019-07-30 20:05:09,970 - MainThread - INFO test3.py[:240] - ¹Ø¼ü×ÖÆ¤Ì×-- jd ÏêÇéÒ³url£ºhttps://www.jd.com/chanpin/2208469.html
+2019-07-30 20:05:09,971 - MainThread - INFO test3.py[:246] - ¹Ø¼ü×ÖÆ¤Ì×-- b2bbaidu ÏêÇéÒ³url£ºhttps://b2b.baidu.com/s?q=%E7%9A%AE%E5%A5%97&from=b2b_straight&srcid=5103

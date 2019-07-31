@@ -1,0 +1,10 @@
+2019-07-30 10:54:09,493 - MainThread - INFO test3.py[:159] - 请求关键字成功：http://www.baidu.com/s?wd=乐呵呵
+2019-07-30 10:54:15,541 - MainThread - INFO test3.py[:206] - error2 stop 
+2019-07-30 10:54:15,541 - MainThread - INFO test3.py[:206] - error2 stop 
+2019-07-30 10:54:15,541 - MainThread - INFO test3.py[:206] - error2 stop 
+2019-07-30 10:54:15,542 - MainThread - INFO test3.py[:206] - error2 stop 
+2019-07-30 10:54:15,542 - MainThread - INFO test3.py[:206] - error2 stop 
+2019-07-30 10:54:15,542 - MainThread - INFO test3.py[:206] - error2 stop 
+2019-07-30 10:54:15,542 - MainThread - INFO test3.py[:206] - error2 stop 
+2019-07-30 10:54:15,542 - MainThread - INFO test3.py[:206] - error2 stop 
+2019-07-30 10:54:15,543 - MainThread - INFO test3.py[:206] - error2 stop 

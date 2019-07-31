@@ -1,0 +1,10 @@
+2019-07-30 10:53:08,737 - MainThread - DEBUG connectionpool.py[:207] - Starting new HTTP connection (1): www.baidu.com
+2019-07-30 10:53:08,890 - MainThread - DEBUG connectionpool.py[:395] - http://www.baidu.com:80 "GET /s?wd=%E4%B9%90%E5%91%B5%E5%91%B5 HTTP/1.1" 200 None
+2019-07-30 10:53:09,192 - MainThread - DEBUG selector_events.py[:65] - Using selector: SelectSelector
+2019-07-30 10:53:09,194 - MainThread - INFO test3.py[:159] - «Î«Ûπÿº¸◊÷≥…π¶£∫http://www.baidu.com/s?wd=¿÷∫«∫«
+2019-07-30 10:53:13,049 - MainThread - INFO test3.py[:240] - πÿº¸◊÷¿÷∫«∫«-- jd œÍ«È“≥url£∫https://www.jd.com/pinpai/13657-267494.html
+2019-07-30 10:53:13,062 - MainThread - INFO test3.py[:240] - πÿº¸◊÷¿÷∫«∫«-- jd œÍ«È“≥url£∫https://www.jd.com/pinpai/267494.html
+2019-07-30 10:53:15,527 - MainThread - INFO test3.py[:206] - error2 stop 
+2019-07-30 10:53:15,527 - MainThread - INFO test3.py[:206] - error2 stop 
+2019-07-30 10:53:15,527 - MainThread - INFO test3.py[:206] - error2 stop 
+2019-07-30 10:53:15,527 - MainThread - INFO test3.py[:206] - error2 stop 

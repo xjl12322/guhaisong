@@ -13,9 +13,7 @@ __author__ = 'yushanshan'
 # createTime : 2019/7/18 15:07
 # desc : this is new py file, please write your desc for this file
 # ****************************************************************
-from gevent import monkey;
 
-monkey.patch_all()
 from insert import getDatabase
 from insert_redis import inser_redis
 from requests_url import getXpath
@@ -26,10 +24,9 @@ import asyncio
 from queue import Queue
 import gevent.pool
 import pymysql, logging, redis
-
 supervisory = ["jd.com", "1688.com", "b2b.baidu.com"]
 # from config_log import config_log
-from multiprocessing import Pool
+from multiprocessing import process
 from aiohttp import TCPConnector
 from config_log import *
 
@@ -44,8 +41,6 @@ flag_1688 = {}
 flag_jd = {}
 flag_b2bbaidu = {}
 
-pool_task = gevent.pool.Pool(10)
-executor_thread = ThreadPoolExecutor(max_workers=12)
 list_jd = []
 list_1688 = []
 list_b2bbaidu = []
@@ -141,7 +136,6 @@ def requests_baidu_keyword(keyword="尼龙布"):
 
 
 def request_detail(keyword):
-    global  list_jd,list_1688,list_b2bbaidu,tasks_list_result
     list_jd = []
     list_1688 = []
     list_b2bbaidu = []
@@ -151,6 +145,7 @@ def request_detail(keyword):
         r = requests.get(url, headers=Header, timeout=6)
     except Exception as e:
         logging.info("eeeee：{}".format(e))
+
     else:
         # zloop = asyncio.set_event_loop(zloop)
         zloop = asyncio.get_event_loop()
@@ -158,7 +153,8 @@ def request_detail(keyword):
         tasks_result = []
         if r:
             tasks_list = []
-            logging.info("请求关键字成功：{}".format(url))
+            # logging.info("请求关键字成功：{}".format(url))
+            print("请求关键字成功：{}".format(url))
             selector = getXpath(r.text)
             node_list = selector.xpath('''//div[contains(@class,"c-container")]''')
 
@@ -180,54 +176,51 @@ def request_detail(keyword):
                     tasks.append(asyncio.ensure_future(fetch(url_baidu_detail, title, keyword, index_id)))
             zloop.run_until_complete(asyncio.wait(tasks))
 
-        values_list = []
+
+
         for val in tasks:
             values = val.result()
-            if values != "1":
-                values_list.append(asyncio.ensure_future(handler(values)))
+            # print(values[0])
+            if values[0] != "1":
+                title = values[2]
+                if "..." in title:
+                    html = getXpath(values[0])
+                    title = html.xpath('''//head/title/text()''')
+                    if len(title) > 0:
+                        title = title[0]
+                dicts = {}
+                dicts["tag"] = values[5]
+                dicts["keyword"] = values[3]
+                dicts["title"] = title
+                dicts["url"] = values[1]
+                dicts["index"] = values[4]
+
+                if dicts["tag"] == "jd":
+                    list_jd.append(dicts)
+                if dicts["tag"] == "1688":
+                    list_1688.append(dicts)
+                if dicts["tag"] == "b2b.baidu.com":
+                    list_b2bbaidu.append(dicts)
             else:
-                logging.info("error2 stop ",values[1])
-        zloop.run_until_complete(asyncio.wait(values_list))
-async def handler(values):
-    global list_jd, list_1688, list_b2bbaidu, tasks_list_result
-    title = values[2]
-    if "..." in title:
-        html = getXpath(values[0])
-        title = html.xpath('''//head/title/text()''')
-        if len(title) > 0:
-            title = title[0]
-    dicts = {}
-    dicts["tag"] = values[5]
-    dicts["keyword"] = values[3]
-    dicts["title"] = title
-    dicts["url"] = values[1]
-    dicts["index"] = values[4]
+                # logging.info("error2 stop "+str(values[1]))
+                print("error2 stop "+str(values[1]))
 
-    if dicts["tag"] == "jd":
-        list_jd.append(dicts)
-    if dicts["tag"] == "1688":
-        list_1688.append(dicts)
-    if dicts["tag"] == "b2b.baidu.com":
-        list_b2bbaidu.append(dicts)
+        if len(list_jd) > 0:
+            s = sorted(list_jd, key=lambda x: x['index'], reverse=False)
+            dict_jd = s[0]
+            tasks_list_result.append(dict_jd)
+        if len(list_1688) > 0:
+            s = sorted(list_1688, key=lambda x: x['index'], reverse=False)
+            dict_1688 = s[0]
+            tasks_list_result.append(dict_1688)
 
-    if len(list_jd)>0:
-        s = sorted(list_jd, key=lambda x: x['index'], reverse=False)
-        dict_jd = s[0]
-        tasks_list_result.append(dict_jd)
-    if len(list_1688)>0:
-        s = sorted(list_1688, key=lambda x: x['index'], reverse=False)
-        dict_1688 = s[0]
-        tasks_list_result.append(dict_1688)
-
-    if len(list_b2bbaidu)>0:
-        s = sorted(list_b2bbaidu, key=lambda x: x['index'], reverse=False)
-        dict_b2bbaidu = s[0]
-        tasks_list_result.append(dict_b2bbaidu)
-    # for d in tasks_list_result:
-    #     insert_db(d)
-    print(tasks_list_result)
-
-
+        if len(list_b2bbaidu) > 0:
+            s = sorted(list_b2bbaidu, key=lambda x: x['index'], reverse=False)
+            dict_b2bbaidu = s[0]
+            tasks_list_result.append(dict_b2bbaidu)
+        # for d in tasks_list_result:
+        #     insert_db(d)
+        print(tasks_list_result)
 
 
 # async def handler(result):
@@ -236,7 +229,7 @@ async def handler(values):
 async def fetch(url, title, keyword, index_id):
     async with aiohttp.ClientSession(connector=TCPConnector(verify_ssl=False)) as session:
         try:
-            async with session.get(url, headers=Header, timeout=5) as resp:
+            async with session.get(url, headers=Header, timeout=6) as resp:
                 if resp and resp != None:
                     if resp.charset == "utf-8" or resp.charset == "UTF-8" or resp.charset == "utf8":
                         resp.encoding = "utf-8"
@@ -244,21 +237,22 @@ async def fetch(url, title, keyword, index_id):
                         resp.encoding = "gbk"
                     tag = "xxxx"
                     if supervisory[0] in str(resp.url):
-                        logging.info("关键字{}-- jd 详情页url：{}".format(keyword, resp.url))
+                        # logging.info("关键字{}-- jd 详情页url：{}".format(keyword, resp.url))
+                        print("关键字{}-- jd 详情页url：{}".format(keyword, resp.url))
                         tag = "jd"
                     if supervisory[1] in str(resp.url):
-                        logging.info("关键字{}-- 1688 详情页url：{}".format(keyword, resp.url))
+                        # logging.info("关键字{}-- 1688 详情页url：{}".format(keyword, resp.url))
+                        print("关键字{}-- 1688 详情页url：{}".format(keyword, resp.url))
                         tag = "1688"
                     if supervisory[2] in str(resp.url):
-                        logging.info("关键字{}-- b2bbaidu 详情页url：{}".format(keyword, resp.url))
+                        # logging.info("关键字{}-- b2bbaidu 详情页url：{}".format(keyword, resp.url))
+                        print("关键字{}-- b2bbaidu 详情页url：{}".format(keyword, resp.url))
                         tag = "b2b.baidu.com"
                     urls = str(resp.url)
-
                     return await resp.text(errors="ignore"), urls, title, keyword, index_id,tag
                 else:
-                    return "1",
+                    return "1",resp.status
         except Exception as e:
-            logging.info("error2{}".format(e))
             return "1",e
 
 if __name__ == "__main__":
@@ -271,7 +265,6 @@ if __name__ == "__main__":
     # t = threading.Thread(target=request_detail, args=(thread_loop,))
     # t.daemon = True
     # t.start()
-    "2556"
     # while True:
     #     result = conn_redis.lpop("keywordlist")
     #     logging.info("获取关键字：{}".format(result))

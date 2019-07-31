@@ -1,0 +1,77 @@
+DEBUG - urllib3.connectionpool - 2019-07-30 10:52:23,893 - Starting new HTTP connection (1): www.baidu.com
+DEBUG - urllib3.connectionpool - 2019-07-30 10:52:23,923 - http://www.baidu.com:80 "GET /s?wd=%E4%B9%90%E5%91%B5%E5%91%B5 HTTP/1.1" 200 None
+DEBUG - asyncio - 2019-07-30 10:52:24,141 - Using selector: SelectSelector
+INFO - root - 2019-07-30 10:52:24,144 - «Î«Ûπÿº¸◊÷≥…π¶£∫http://www.baidu.com/s?wd=¿÷∫«∫«
+DEBUG - chardet.charsetprober - 2019-07-30 10:52:25,048 - MacCyrillic confidence = 0.03300332107437246, below negative shortcut threshhold 0.05
+DEBUG - chardet.charsetprober - 2019-07-30 10:52:25,066 - IBM855 confidence = 0.04104041558104947, below negative shortcut threshhold 0.05
+DEBUG - chardet.charsetprober - 2019-07-30 10:52:25,090 - ISO-8859-5 confidence = 0.0, below negative shortcut threshhold 0.05
+DEBUG - chardet.charsetprober - 2019-07-30 10:52:25,192 - utf-8  confidence = 0.99
+DEBUG - chardet.charsetprober - 2019-07-30 10:52:25,192 - SHIFT_JIS Japanese confidence = 0.01
+DEBUG - chardet.charsetprober - 2019-07-30 10:52:25,192 - EUC-JP Japanese confidence = 0.01
+DEBUG - chardet.charsetprober - 2019-07-30 10:52:25,192 - GB2312 Chinese confidence = 0.01
+DEBUG - chardet.charsetprober - 2019-07-30 10:52:25,192 - EUC-KR Korean confidence = 0.01
+DEBUG - chardet.charsetprober - 2019-07-30 10:52:25,192 - CP949 Korean confidence = 0.01
+DEBUG - chardet.charsetprober - 2019-07-30 10:52:25,193 - Big5 Chinese confidence = 0.01
+DEBUG - chardet.charsetprober - 2019-07-30 10:52:25,193 - EUC-TW Taiwan confidence = 0.01
+DEBUG - chardet.charsetprober - 2019-07-30 10:52:25,193 - windows-1251 Russian confidence = 0.01
+DEBUG - chardet.charsetprober - 2019-07-30 10:52:25,193 - KOI8-R Russian confidence = 0.01
+DEBUG - chardet.charsetprober - 2019-07-30 10:52:25,193 - ISO-8859-5 Russian confidence = 0.0
+DEBUG - chardet.charsetprober - 2019-07-30 10:52:25,193 - MacCyrillic not active
+DEBUG - chardet.charsetprober - 2019-07-30 10:52:25,193 - IBM866 Russian confidence = 0.08471120705934594
+DEBUG - chardet.charsetprober - 2019-07-30 10:52:25,193 - IBM855 not active
+DEBUG - chardet.charsetprober - 2019-07-30 10:52:25,193 - ISO-8859-7 Greek confidence = 0.0
+DEBUG - chardet.charsetprober - 2019-07-30 10:52:25,193 - windows-1253 Greek confidence = 0.0
+DEBUG - chardet.charsetprober - 2019-07-30 10:52:25,193 - ISO-8859-5 not active
+DEBUG - chardet.charsetprober - 2019-07-30 10:52:25,194 - windows-1251 Bulgarian confidence = 0.0
+DEBUG - chardet.charsetprober - 2019-07-30 10:52:25,194 - TIS-620 Thai confidence = 0.060108169291505135
+DEBUG - chardet.charsetprober - 2019-07-30 10:52:25,194 - ISO-8859-9 Turkish confidence = 0.4398953313000672
+DEBUG - chardet.charsetprober - 2019-07-30 10:52:25,194 - windows-1255 Hebrew confidence = 0.0
+DEBUG - chardet.charsetprober - 2019-07-30 10:52:25,194 - windows-1255 Hebrew confidence = 0.0
+DEBUG - chardet.charsetprober - 2019-07-30 10:52:25,194 - windows-1255 Hebrew confidence = 0.0
+DEBUG - chardet.charsetprober - 2019-07-30 10:52:25,194 - utf-8  confidence = 0.99
+DEBUG - chardet.charsetprober - 2019-07-30 10:52:25,194 - SHIFT_JIS Japanese confidence = 0.01
+DEBUG - chardet.charsetprober - 2019-07-30 10:52:25,194 - EUC-JP Japanese confidence = 0.01
+DEBUG - chardet.charsetprober - 2019-07-30 10:52:25,194 - GB2312 Chinese confidence = 0.01
+DEBUG - chardet.charsetprober - 2019-07-30 10:52:25,194 - EUC-KR Korean confidence = 0.01
+DEBUG - chardet.charsetprober - 2019-07-30 10:52:25,194 - CP949 Korean confidence = 0.01
+DEBUG - chardet.charsetprober - 2019-07-30 10:52:25,195 - Big5 Chinese confidence = 0.01
+DEBUG - chardet.charsetprober - 2019-07-30 10:52:25,195 - EUC-TW Taiwan confidence = 0.01
+INFO - root - 2019-07-30 10:52:25,200 - πÿº¸◊÷¿÷∫«∫«-- jd œÍ«È“≥url£∫https://www.jd.com/pinpai/267494.html
+INFO - root - 2019-07-30 10:52:25,201 - πÿº¸◊÷¿÷∫«∫«-- jd œÍ«È“≥url£∫https://www.jd.com/pinpai/13657-267494.html
+INFO - root - 2019-07-30 10:52:25,598 - πÿº¸◊÷¿÷∫«∫«-- 1688 œÍ«È“≥url£∫https://www.1688.com/chanpin/-C0D6BAC7BAC7.html
+DEBUG - chardet.charsetprober - 2019-07-30 10:52:25,607 - SHIFT_JIS Japanese prober hit error at byte 419
+DEBUG - chardet.charsetprober - 2019-07-30 10:52:25,948 - windows-1251 confidence = 0.0, below negative shortcut threshhold 0.05
+DEBUG - chardet.charsetprober - 2019-07-30 10:52:26,018 - ISO-8859-7 confidence = 0.0017231131529020867, below negative shortcut threshhold 0.05
+DEBUG - chardet.charsetprober - 2019-07-30 10:52:26,031 - windows-1253 confidence = 0.002028589286799564, below negative shortcut threshhold 0.05
+DEBUG - chardet.charsetprober - 2019-07-30 10:52:26,054 - windows-1251 confidence = 0.009529050309355497, below negative shortcut threshhold 0.05
+DEBUG - chardet.charsetprober - 2019-07-30 10:52:26,210 - utf-8 not active
+DEBUG - chardet.charsetprober - 2019-07-30 10:52:26,210 - SHIFT_JIS not active
+DEBUG - chardet.charsetprober - 2019-07-30 10:52:26,210 - EUC-JP Japanese confidence = 0.0331140350877193
+DEBUG - chardet.charsetprober - 2019-07-30 10:52:26,210 - GB2312 Chinese confidence = 0.99
+DEBUG - chardet.charsetprober - 2019-07-30 10:52:26,210 - EUC-KR Korean confidence = 0.01
+DEBUG - chardet.charsetprober - 2019-07-30 10:52:26,210 - CP949 Korean confidence = 0.01
+DEBUG - chardet.charsetprober - 2019-07-30 10:52:26,210 - Big5 Chinese confidence = 0.01
+DEBUG - chardet.charsetprober - 2019-07-30 10:52:26,210 - EUC-TW Taiwan confidence = 0.01
+DEBUG - chardet.charsetprober - 2019-07-30 10:52:26,211 - windows-1251 not active
+DEBUG - chardet.charsetprober - 2019-07-30 10:52:26,211 - KOI8-R Russian confidence = 0.21180549935006807
+DEBUG - chardet.charsetprober - 2019-07-30 10:52:26,211 - ISO-8859-5 Russian confidence = 0.057115626964392964
+DEBUG - chardet.charsetprober - 2019-07-30 10:52:26,211 - MacCyrillic Russian confidence = 0.01
+DEBUG - chardet.charsetprober - 2019-07-30 10:52:26,211 - IBM866 Russian confidence = 0.016427076832667507
+DEBUG - chardet.charsetprober - 2019-07-30 10:52:26,211 - IBM855 Russian confidence = 0.09794994574950112
+DEBUG - chardet.charsetprober - 2019-07-30 10:52:26,211 - ISO-8859-7 not active
+DEBUG - chardet.charsetprober - 2019-07-30 10:52:26,212 - windows-1253 not active
+DEBUG - chardet.charsetprober - 2019-07-30 10:52:26,212 - ISO-8859-5 Bulgairan confidence = 0.056248656341849085
+DEBUG - chardet.charsetprober - 2019-07-30 10:52:26,212 - windows-1251 not active
+DEBUG - chardet.charsetprober - 2019-07-30 10:52:26,212 - TIS-620 Thai confidence = 0.1174885981901698
+DEBUG - chardet.charsetprober - 2019-07-30 10:52:26,212 - ISO-8859-9 Turkish confidence = 0.5004965418032952
+DEBUG - chardet.charsetprober - 2019-07-30 10:52:26,212 - windows-1255 Hebrew confidence = 0.0
+DEBUG - chardet.charsetprober - 2019-07-30 10:52:26,212 - windows-1255 Hebrew confidence = 0.0
+DEBUG - chardet.charsetprober - 2019-07-30 10:52:26,212 - windows-1255 Hebrew confidence = 0.007447649045485648
+DEBUG - chardet.charsetprober - 2019-07-30 10:52:26,212 - utf-8 not active
+DEBUG - chardet.charsetprober - 2019-07-30 10:52:26,212 - SHIFT_JIS not active
+DEBUG - chardet.charsetprober - 2019-07-30 10:52:26,213 - EUC-JP Japanese confidence = 0.0331140350877193
+DEBUG - chardet.charsetprober - 2019-07-30 10:52:26,213 - GB2312 Chinese confidence = 0.99
+DEBUG - chardet.charsetprober - 2019-07-30 10:52:26,213 - EUC-KR Korean confidence = 0.01
+DEBUG - chardet.charsetprober - 2019-07-30 10:52:26,213 - CP949 Korean confidence = 0.01
+DEBUG - chardet.charsetprober - 2019-07-30 10:52:26,213 - Big5 Chinese confidence = 0.01
+DEBUG - chardet.charsetprober - 2019-07-30 10:52:26,213 - EUC-TW Taiwan confidence = 0.01

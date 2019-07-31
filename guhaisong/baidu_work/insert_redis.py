@@ -2,7 +2,7 @@
 # -*- coding:utf-8 -*-
 __author__ = "X"
 __date__ = "2019/7/20 16:13"
-from config_log import config_log
+# from config_log import config_log
 import redis,pymysql,logging
 from insert import getDatabase
 def inser_redis():

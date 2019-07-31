@@ -6,17 +6,19 @@ import functools
 import multiprocessing
 import threading
 from concurrent.futures import ThreadPoolExecutor, ProcessPoolExecutor
+import ssl
 
+ssl._create_default_https_context = ssl._create_unverified_context
 __author__ = 'yushanshan'
 # createTime : 2019/7/18 15:07
 # desc : this is new py file, please write your desc for this file
 # ****************************************************************
-# from gevent import monkey;monkey.patch_all()
+
 from insert import getDatabase
 from insert_redis import inser_redis
 from requests_url import getXpath
-import requests,gevent,time
-from concurrent.futures import ProcessPoolExecutor,ThreadPoolExecutor
+import requests, gevent, time
+from concurrent.futures import ProcessPoolExecutor, ThreadPoolExecutor
 # from urllib import parse
 import asyncio
 from queue import Queue
@@ -24,20 +26,26 @@ import gevent.pool
 import pymysql, logging, redis
 supervisory = ["jd.com", "1688.com", "b2b.baidu.com"]
 # from config_log import config_log
-from multiprocessing import Pool
+from multiprocessing import process
+from aiohttp import TCPConnector
 from config_log import *
+
 Header = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36",
 }
 conn = getDatabase()
 import grequests
+
 # q = multiprocessing.Queue(8)
 flag_1688 = {}
 flag_jd = {}
 flag_b2bbaidu = {}
 
-pool_task = gevent.pool.Pool(10)
-executor_thread = ThreadPoolExecutor(max_workers=12)
+list_jd = []
+list_1688 = []
+list_b2bbaidu = []
+tasks_list_result = []
+
 def test_connection():
     try:
         global conn
@@ -53,7 +61,7 @@ def insert_db(dicts):
     if dicts.get("tag") == "jd":
         print(dicts)
         sql = "update baidu_ranking set jd=%d,jd_title='%s',jd_url='%s' where keyword='%s'" % (
-        dicts["index"], dicts["title"], dicts["url"], dicts["keyword"])
+            dicts["index"], dicts["title"], dicts["url"], dicts["keyword"])
         conn = test_connection()
         cur = conn.cursor()
         try:
@@ -67,7 +75,7 @@ def insert_db(dicts):
     if dicts.get("tag") == "1688":
         print(dicts)
         sql = "update baidu_ranking set `1688`=%d,1688_title='%s',1688_url='%s' where keyword='%s'" % (
-        dicts["index"], dicts["title"], dicts["url"], dicts["keyword"])
+            dicts["index"], dicts["title"], dicts["url"], dicts["keyword"])
         conn = test_connection()
         cur = conn.cursor()
         conn.ping(reconnect=True)
@@ -82,7 +90,7 @@ def insert_db(dicts):
     if dicts.get("tag") == "b2b.baidu.com":
         print(dicts)
         sql = "update baidu_ranking set b2bbaidu=%d,b2bbaidu_title='%s',b2bbaidu_url='%s' where keyword='%s'" % (
-        dicts["index"], dicts["title"], dicts["url"], dicts["keyword"])
+            dicts["index"], dicts["title"], dicts["url"], dicts["keyword"])
         conn = test_connection()
         cur = conn.cursor()
         # conn.ping(reconnect=True)
@@ -110,8 +118,10 @@ def get_keyword(q):
         logging.info("插入关键字队列：{}".format(result))
         q.put(result)
 
+
 def requests_keyword():
     pass
+
 
 def requests_baidu_keyword(keyword="尼龙布"):
     # global q
@@ -122,172 +132,154 @@ def requests_baidu_keyword(keyword="尼龙布"):
     # while flag:
     #     keyword = q.get()
     #     logging.info("获取关键字队列：{}".format(keyword))
-        # request_detail(keyword)
+    # request_detail(keyword)
 
-async def request_detail():
+
+def request_detail(keyword):
     list_jd = []
     list_1688 = []
     list_b2bbaidu = []
     tasks_list_result = []
-    jd = True
-    s_1688 = True
-    b2bbaidu = True
-    conn_redis = inser_redis()
-    while True:
-        result = conn_redis.lpop("keywordlist")
-        logging.info("获取关键字：{}".format(result))
-        if not result:
-            logging.info("list空")
-            break
-        keyword = result
-        url = "http://www.baidu.com/s?wd=" + keyword
-        # zloop = asyncio.get_event_loop()
-        zloop = asyncio.set_event_loop()
-        async with aiohttp.ClientSession() as session:
-            async with session.get(url, headers=Header,timeout=5) as r:
-                if r.status == 200:
-                    tasks_list = []
-                    y = await r.text()
-                    print(y)
-                    logging.info("请求关键字成功：{}".format(url))
-                    selector = getXpath(y)
-                    node_list = selector.xpath('''//div[contains(@class,"c-container")]''')
-                    tasks = []
-                    for l in node_list:
-                        url_baidu_detail = l.xpath('''h3/a[1]/@href''')
-                        lingshi_title = l.xpath('''string(h3/a[1])''')
-                        title = str(lingshi_title)
-                        if len(url_baidu_detail) > 0:
-                            url_baidu_detail = url_baidu_detail[0]
-                            if url_baidu_detail == "" or len(url_baidu_detail) < 3:
-                                continue
-                            if str(url_baidu_detail).startswith("/sf/"):
-                                continue
-                            index_id = 0
-                            index_id = l.xpath("@id")
-                            if len(index_id) > 0:
-                                index_id = int(index_id[0])
-                                tasks.append(asyncio.ensure_future(fetch(url_baidu_detail, title, keyword, index_id)))
-                        zloop.run_until_complete(asyncio.wait(tasks))
-                        for val in tasks:
-                            if val.result():
-                                result = val.result()
-                                if result["tag"] == "jd":
-                                    list_jd.append(result)
-                                if result["tag"] == "1688":
-                                    list_1688.append(result)
-                                if result["tag"] == "b2b.baidu.com":
-                                    list_b2bbaidu.append(result)
-                        if len(list_jd) > 0:
-                            s = sorted(list_jd, key=lambda x: x['index'], reverse=False)
-                            dict_jd = s[0]
-                            tasks_list_result.append(dict_jd)
-                        if len(list_1688) > 0:
-                            s = sorted(list_1688, key=lambda x: x['index'], reverse=False)
-                            dict_1688 = s[0]
-                            tasks_list_result.append(dict_1688)
+    url = "http://www.baidu.com/s?wd=" + keyword
+    try:
+        r = requests.get(url, headers=Header, timeout=6)
+    except Exception as e:
+        logging.info("eeeee：{}".format(e))
 
-                        if len(list_b2bbaidu) > 0:
-                            s = sorted(list_b2bbaidu, key=lambda x: x['index'], reverse=False)
-                            dict_b2bbaidu = s[0]
-                            tasks_list_result.append(dict_b2bbaidu)
-                        for d in tasks_list_result:
-                            insert_db(d)
+    else:
+        # zloop = asyncio.set_event_loop(zloop)
+        zloop = asyncio.get_event_loop()
+        tasks = []
+        tasks_result = []
+        if r:
+            tasks_list = []
+            # logging.info("请求关键字成功：{}".format(url))
+            print("请求关键字成功：{}".format(url))
+            selector = getXpath(r.text)
+            node_list = selector.xpath('''//div[contains(@class,"c-container")]''')
 
-
-async def fetch(url,title,keyword,index_id):
-    print(111)
-    dicts_list = []
-    url_lst_failed = []
-    url_lst_successed = []
-    async with aiohttp.ClientSession() as session:
-        async with session.get(url, timeout=5) as resp:
-            if resp.status == 200:
-                if resp.charset == "utf-8" or resp.charset=="UTF-8" or resp.charset == "utf8":
-                    resp.encoding = "utf-8"
-                else:
-                    resp.encoding = "gbk"
-                print(resp.url)
-                if supervisory[0] in str(resp.url):
-
-                    index_id = index_id
-                    logging.info("关键字{}-- jd 详情页url：{}".format(keyword, resp.url))
-                    dicts = {}
-                    dicts["tag"] = "jd"
-                    dicts["keyword"] = keyword
-                    if "..." in title:
-                        html = getXpath(resp.text())
-                        title = html.xpath('''//head/title/text()''')
-                        if len(title) > 0:
-                            title = title[0]
-                    dicts["title"] = title
-                    dicts["url"] = resp.url
-                    dicts["index"] = index_id
-                    print(dicts)
-                if supervisory[1] in str(resp.url):
-                    flag_1688 = True
-                    index_id = index_id
-                    logging.info("关键字{}-- 1688 详情页url：{}".format(keyword, resp.url))
-                    dicts = {}
-                    dicts["tag"] = "1688"
-                    dicts["keyword"] = keyword
-                    if "..." in title:
-                        html = getXpath(resp.text())
-                        title = html.xpath('''//head/title/text()''')
-                        if len(title) > 0:
-                            title = title[0]
-                    dicts["title"] = title
-                    dicts["url"] = resp.url
-                    dicts["index"] = index_id
-                    print(dicts)
-
-                if supervisory[2] in str(resp.url):
-                    flag_b2bbaidu = True
+            for l in node_list:
+                url_baidu_detail = l.xpath('''h3/a[1]/@href''')
+                lingshi_title = l.xpath('''string(h3/a[1])''')
+                title = str(lingshi_title)
+                if len(url_baidu_detail) > 0:
+                    url_baidu_detail = url_baidu_detail[0]
+                    if url_baidu_detail == "" or len(url_baidu_detail) < 3:
+                        continue
+                    if str(url_baidu_detail).startswith("/sf/"):
+                        continue
                     index_id = 0
-                    index_id = index_id
-                    logging.info("关键字{}-- b2bbaidu 详情页url：{}".format(keyword, resp.url))
-                    dicts = {}
-                    dicts["tag"] = "b2b.baidu.com"
-                    dicts["keyword"] = keyword
-                    if "..." in title:
-                        html = getXpath(resp.text())
-                        title = html.xpath('''//head/title/text()''')
-                        if len(title) > 0:
-                            title = title[0]
+                    index_id = l.xpath("@id")
+                    if len(index_id) > 0:
+                        index_id = int(index_id[0])
+                    # asyncio.ensure_future(fetch(url_baidu_detail,title,keyword,index_id))
+                    tasks.append(asyncio.ensure_future(fetch(url_baidu_detail, title, keyword, index_id)))
+            zloop.run_until_complete(asyncio.wait(tasks))
 
-                    dicts["title"] = title
-                    dicts["url"] = resp.url
-                    dicts["index"] = index_id
-                    print(dicts)
 
-            # print(dicts)
 
-def sss(obj):
-    pass
+        for val in tasks:
+            values = val.result()
+            print("xjl")
+
+            print(values)
+            print("xjl2")
+        #     if values[0] != "1":
+        #         title = values[2]
+        #         if "..." in title:
+        #             html = getXpath(values[0])
+        #             title = html.xpath('''//head/title/text()''')
+        #             if len(title) > 0:
+        #                 title = title[0]
+        #         dicts = {}
+        #         dicts["tag"] = values[5]
+        #         dicts["keyword"] = values[3]
+        #         dicts["title"] = title
+        #         dicts["url"] = values[1]
+        #         dicts["index"] = values[4]
+        #
+        #         if dicts["tag"] == "jd":
+        #             list_jd.append(dicts)
+        #         if dicts["tag"] == "1688":
+        #             list_1688.append(dicts)
+        #         if dicts["tag"] == "b2b.baidu.com":
+        #             list_b2bbaidu.append(dicts)
+        #     else:
+        #         # logging.info("error2 stop "+str(values[1]))
+        #         print("error2 stop "+str(values[1]))
+        #
+        # if len(list_jd) > 0:
+        #     s = sorted(list_jd, key=lambda x: x['index'], reverse=False)
+        #     dict_jd = s[0]
+        #     tasks_list_result.append(dict_jd)
+        # if len(list_1688) > 0:
+        #     s = sorted(list_1688, key=lambda x: x['index'], reverse=False)
+        #     dict_1688 = s[0]
+        #     tasks_list_result.append(dict_1688)
+        #
+        # if len(list_b2bbaidu) > 0:
+        #     s = sorted(list_b2bbaidu, key=lambda x: x['index'], reverse=False)
+        #     dict_b2bbaidu = s[0]
+        #     tasks_list_result.append(dict_b2bbaidu)
+        # # for d in tasks_list_result:
+        # #     insert_db(d)
+        # print(tasks_list_result)
+
+
+# async def handler(result):
+
+
+async def fetch(url, title, keyword, index_id):
+    try:
+        resp = requests.get(url,headers = Header)
+        if resp and resp != None:
+            if resp.apparent_encoding == "utf-8" or resp.apparent_encoding == "UTF-8" or resp.apparent_encoding== "utf8":
+                resp.encoding = "utf-8"
+            else:
+                resp.encoding = "gbk"
+            tag = "xxxx"
+            if supervisory[0] in str(resp.url):
+                # logging.info("关键字{}-- jd 详情页url：{}".format(keyword, resp.url))
+                print("关键字{}-- jd 详情页url：{}".format(keyword, resp.url))
+                tag = "jd"
+            if supervisory[1] in str(resp.url):
+                # logging.info("关键字{}-- 1688 详情页url：{}".format(keyword, resp.url))
+                print("关键字{}-- 1688 详情页url：{}".format(keyword, resp.url))
+                tag = "1688"
+            if supervisory[2] in str(resp.url):
+                # logging.info("关键字{}-- b2bbaidu 详情页url：{}".format(keyword, resp.url))
+                print("关键字{}-- b2bbaidu 详情页url：{}".format(keyword, resp.url))
+                tag = "b2b.baidu.com"
+            urls = str(resp.url)
+            return resp.text, urls, title, keyword, index_id,tag
+        else:
+            return "1",resp.status_code
+    except Exception as e:
+        return "1",e
+
 if __name__ == "__main__":
-
     config_log()
     s = time.time()
+    conn_redis = inser_redis()
+    # thread_loop = asyncio.new_event_loop()
+    #
+    # # 将thread_loop作为参数传递给子线程
+    # t = threading.Thread(target=request_detail, args=(thread_loop,))
+    # t.daemon = True
+    # t.start()
+    # while True:
+    #     result = conn_redis.lpop("keywordlist")
+    #     logging.info("获取关键字：{}".format(result))
+    #     if not result:
+    #         logging.info("list空")
+    #         break
+    #     request_detail(keyword = result)
 
-    loop = asyncio.new_event_loop()
-
-
-
-    # loop = asyncio.get_event_loop()
-    asyncio.ensure_future(request_detail(loop))
-
-    loop.run_forever()
-
-
-    # loop.run_until_complete(asyncio.wait(tasks))
-    # request_detail(keyword = "豆角网")
+    request_detail("皮套")
+    # request_detail("豆角网")
+# "陈升号'拉宾'" 露兰姬娜  肥啾  '乐呵呵''皮套
     e = time.time()
     print("xjk")
-    j = e-s
+    j = e - s
     print(j)
     print("3ed")
-
-
-
-
-
