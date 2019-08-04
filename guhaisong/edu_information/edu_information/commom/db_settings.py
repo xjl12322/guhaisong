@@ -14,10 +14,10 @@ SQLDB = {
 "MYSQL_PASSWD" : "mysql"},
 
     "line":{"MYSQL_HOST": "47.97.18.242",
-"MYSQL_DBNAME" : "e1366313cms011172g",
+"MYSQL_DBNAME" : "e13663sefssde11172g",
 "MYSQL_PORT" : 3306,
 "MYSQL_USER" : "ecms",
-"MYSQL_PASSWD" : "e1366cms2mA5ycQm131au8KiA0111Xf0yh"},
+"MYSQL_PASSWD" : "e136sdfsefds1au8KiA0111Xf0yh"},
 
 }
 REDISDB = {
@@ -29,7 +29,7 @@ REDISDB = {
     "line":{"REDIS_HOST": "47.97.18.242",
 "REDIS_PORT" : 6379,
 "REDIS_DB":11,
-"REDIS_PASSWORD" : "redis1366BTQR3194srKxsl0111BBOph2V"},
+"REDIS_PASSWORD" : "redsfefsfdgsl0111BBOph2V"},
 
 }
 
