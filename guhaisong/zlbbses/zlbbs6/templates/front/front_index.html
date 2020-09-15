@@ -1,0 +1,59 @@
+{% extends "front/front_base.html" %}
+{% from "common/_macros.html" import static %}
+
+{% block title %}知了课堂Python论坛{% endblock %}
+
+{% block head %}
+    <link rel="stylesheet" href="{{ static("front/css/front_index.css") }}">
+{% endblock %}
+
+{% block body %}
+    <div class="lg-container">
+        <div id="carousel-example-generic" class="carousel slide index-banner" data-ride="carousel">
+          <!-- 指示器 -->
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+          </ol>
+
+          <!-- 轮播图 -->
+          <div class="carousel-inner" role="listbox">
+              {% for banner in banners %}
+                  {% if loop.first %}
+                    <div class="item active">
+                  {% else %}
+                      <div class="item">
+                  {% endif %}
+                    <a href="{{ banner.link_url }}">
+                        <img src="{{ banner.image_url }}" alt="...">
+                    </a>
+                </div>
+              {% endfor %}
+          </div>
+
+          <!-- 左右切换的控制按钮 -->
+          <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+    </div>
+    <div class="sm-container">
+        <div style="padding-bottom:10px;">
+            <button class="btn btn-warning btn-block">发布帖子</button>
+        </div>
+        <div class="list-group">
+          <a href="#" class="list-group-item active">所有板块</a>
+          {% for board in boards %}
+              <a href="#" class="list-group-item">{{ board.name }}</a>
+          {% endfor %}
+
+        </div>
+    </div>
+{% endblock %}

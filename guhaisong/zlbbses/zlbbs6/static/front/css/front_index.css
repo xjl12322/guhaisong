@@ -1,0 +1,9 @@
+.index-banner{
+    border-radius: 10px;
+    overflow: hidden;
+    height: 200px;
+}
+
+.index-banner img{
+    height: 200px;
+}
